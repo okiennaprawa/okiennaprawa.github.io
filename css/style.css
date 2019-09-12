@@ -2,6 +2,7 @@
 .o-nas {
   min-height: 600px;
 }
+
 nav ul a {
     color: #202124;
 }
@@ -14,12 +15,15 @@ nav ul .active {
   height: 65px;
 }
 
-
-
-nav .brand-logo  {
-  color: #202124;
-  font-size: 1.5em;
+nav #logo-container  {
+  height: 64px;
 }
+
+nav .brand-logo img {
+  width: 130px;
+  padding: 10px;
+}
+
 
 nav .sidenav-trigger i {
   font-size: 40px;
@@ -195,11 +199,11 @@ nav .sidenav .active {
   bottom:49px;
 }
 
-#ulist {
+.ulist {
   margin-left: 30px;
 }
 
-#ulist li {
+.ulist li {
   list-style: circle !important;
 
 }
