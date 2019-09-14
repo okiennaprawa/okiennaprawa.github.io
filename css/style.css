@@ -192,6 +192,7 @@ nav .sidenav .active {
   background: #42a5f5;
   box-shadow: 3.5px 0px 7px rgba(100, 100, 100, 0.01);
 }
+
 .scroller:before{
   top:45px;
 }
