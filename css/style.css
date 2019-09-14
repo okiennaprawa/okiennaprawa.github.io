@@ -49,6 +49,9 @@ nav .sidenav .active {
   margin-top: 50px;
 }
 
+footer .logo {
+  width: 200px;
+}
 
 
 #header {
@@ -75,8 +78,13 @@ nav .sidenav .active {
   color: #00838f !important;
 }
 
-.card.small {
+.card.small,
+.card.medium {
   height: initial;
+}
+
+.image-gallery.image-card-object  {
+  height: 664px !important;
 }
 
 @media only screen and (min-width: 992px)
