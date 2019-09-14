@@ -50,7 +50,8 @@ nav .sidenav .active {
 }
 
 footer .logo {
-  width: 200px;
+  width: 100%;
+  padding: 20px;
 }
 
 
