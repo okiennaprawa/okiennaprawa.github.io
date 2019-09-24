@@ -1,3 +1,21 @@
+body {
+  overflow-x: hidden;
+}
+#main-slider {
+  width: 100vw;
+  height: 400px;
+}
+#main-slider > * {
+  width: 100%;
+}
+#main-slider > div {
+  display: grid;
+  height: 400px;
+}
+#main-slider > div:nth-child(1) {
+  background-image: url("/img/front3.jpg");
+}
+
 .oferta,
 .o-nas {
   min-height: 600px;
@@ -254,7 +272,6 @@ footer .logo {
   display: flex;
   margin-bottom: 40px;
 }
-
 
 
 
