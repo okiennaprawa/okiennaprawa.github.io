@@ -11,7 +11,8 @@
     <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="css/style.css" type="text/css" rel="stylesheet">
-  </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-slider/1.0.0/simpleslider.min.js">
+    </head>
   <body>
     <nav class="white" role="navigation">
       <div class="nav-wrapper container">
@@ -56,28 +57,43 @@
       </div>
     </nav>
 
-
-    <div id="index-banner" class="parallax-container">
-      <div class="section no-pad-bot">
-        <div class="container">
-          <br><br>
-          <h1 class="header center text-lighten-2">Renowacja Szyb</h1>
+    
+    
+    <div id="main-slider"style="width:100%; height:412px" data-simple-slider>
+        <div>
+            <h1 class="center text-lighten-2">Renowacja szyb i okien</h1>
+            <div class="row center">
+              <h5 class="header col s12 light">Zamów i zadzwoń</h5>
+              <p>Profesjonalne usuwanie rys i naprawa stolarki okiennej</p>
+            </div>
+            <div class="row center">
+              <a href="oferta.html" id="download-button" 
+              class="btn-large waves-effect waves-light blue accent-3 z-depth-4">Nasza oferta</a>
+            </div>
+        </div>
+        <div>
           <div class="row center">
-            <h5 class="header col s12 light">Zamów i zadzwoń</h5>
-            <p>Profesjonalne usuwanie rys i polerowanie szkła</p>
+            <h5 class="header col s12 light">Okna jak nowe</h5>
+            <p>Usuwanie kleju, taśm i rys z ram okiennych</p>
           </div>
           <div class="row center">
             <a href="oferta.html" id="download-button" 
             class="btn-large waves-effect waves-light blue accent-3 z-depth-4">Nasza oferta</a>
           </div>
-          <br><br>
-
+        </div>
+        <div>
+          <div class="row center">
+            <h5 class="header col s12 light">Stolarka budowlana</h5>
+            <p>Naprawa drzwi drewnianych, instalacja okuć antywłamaniowych i wiele więcej</p>
+          </div>
+          <div class="row center">
+            <a href="oferta.html" id="download-button" 
+            class="btn-large waves-effect waves-light blue accent-3 z-depth-4">Zobacz inne</a>
+          </div>
         </div>
       </div>
-      <div class="parallax"><img src="/img/front1.jpg" alt="Glass
-          background"></div>
-    </div>
-
+          
+    
 
     <div class="container">
       <div class="section">
@@ -88,14 +104,14 @@
             <div class="col s12 m4">
                 <div class="card">
                   <div class="card-image">
-                    <img src="img/glass2.jpg">
+                    <img src="img/o-nas-card.jpg">
                     <span class="card-title">O nas</span>
                   </div>
                   <div class="card-content">
                     <p>Poznaj naszą firmę.</p><br/>
                   </div>
                   <div class="card-action">
-                    <a href="/o-nas.html">O nas</a>
+                    <a href="/o-nas.html" class="blue-text text-darken-2">O nas</a>
                   </div>
                 </div>
               </div>
@@ -104,14 +120,14 @@
           <div class="col s12 m4">
             <div class="card">
               <div class="card-image">
-                <img src="img/card2-minified.jpg">
+                <img src="img/oferta-card.jpg">
                 <span class="card-title">Oferta</span>
               </div>
               <div class="card-content">
                 <p>Czego potrzebujesz?</p><br/>
               </div>
               <div class="card-action">
-                <a href="/oferta.html">Oferta</a>
+                <a href="/oferta.html" class="blue-text text-darken-2">Oferta</a>
               </div>
             </div>
           </div>
@@ -122,14 +138,14 @@
           <div class="col s12 m4">
               <div class="card">
                 <div class="card-image">
-                  <img src="img/card1-minified.jpg">
+                  <img src="img/kontakt-card.jpg">
                   <span class="card-title">Kontakt</span>
                 </div>
                 <div class="card-content">
                   <p>Odezwiemy się najszybciej jak to możliwe.</p>
                 </div>
-                <div class="card-action">
-                  <a href="/kontakt.html">Kontakt</a>
+                <div class="card-action blue-text">
+                  <a href="/kontakt.html" class="blue-text text-darken-2">Kontakt</a>
                 </div>
               </div>
             </div>
@@ -210,12 +226,10 @@
           </div>
     
 
-    <div class="container">
-      <div class="section">
 
-        <div class="row">
+
+        <div class="row background-glass-1">
           <div class="col s12 center">
-            <i class="mdi-content-send brown-text"></i>
             <h4>Skontaktuj się z nami</h4>
             <div class="row center">
               <a href="kontakt.html" id="download-button"
@@ -224,9 +238,6 @@
             </div>
           </div>
         </div>
-
-      </div>
-    </div>
 
 
 
@@ -276,11 +287,13 @@
       </div>
     </footer>
     <!--  Scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simple-slider/1.0.0/simpleslider.min.js"></script>
+    <script>
+      simpleslider.getSlider();
+    </script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="js/index.js"></script>
     <script src="js/scroller.js"></script>
-
-
   </body>
 </html>

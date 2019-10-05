@@ -1,3 +1,86 @@
+body {
+  overflow-x: hidden;
+}
+#main-slider {
+  width: 100vw;
+  height: 400px;
+}
+#main-slider > * {
+  width: 100%;
+}
+#main-slider > div {
+  display: grid;
+  height: 400px;
+}
+#main-slider > div > * {
+  margin: auto;
+  color: white;
+}
+
+#main-slider > div:nth-child(1) {
+  background-image: url("/img/slide1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#main-slider > div:nth-child(2) {
+  background-image: url("/img/slide2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#main-slider > div:nth-child(3) {
+  background-image: url("/img/slide3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#main-slider > div:nth-child(2) .row.center:first-child,
+#main-slider > div:nth-child(3) .row.center:first-child {
+  padding: 1.5rem 2rem;
+}
+
+#main-slider > div:nth-child(2),
+#main-slider > div:nth-child(3) {
+  background-color: #20212450;
+  
+}
+
+.section.no-padding {
+  padding-top: 0;
+}
+.background-header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem 0 1.68rem 0;
+}
+.background-header.oferta-header {
+  background-image: url("/img/oferta-banner.jpg");
+}
+.background-header.o-nas-header {
+  background-image: url("/img/o-nas-banner.jpg");
+}
+.background-header.galeria-header {
+  background-image: url("/img/galeria-banner.jpg");
+  background-position-y: 40%;
+}
+.background-header.kontakt-header {
+  background-image: url("/img/slide1.jpg");
+  background-position-y: 9%;
+
+}
+
+.background-glass-1 {
+  background-image: url("/img/background-glass-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 20%;
+  padding: 100px 20px;
+  margin-bottom: 0;
+}
+
 .oferta,
 .o-nas {
   min-height: 600px;
@@ -254,7 +337,6 @@ footer .logo {
   display: flex;
   margin-bottom: 40px;
 }
-
 
 
 
